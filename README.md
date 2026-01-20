@@ -1,1 +1,1 @@
-# DiffusionGPT.github.io
+# DiffusionAgent.github.io
