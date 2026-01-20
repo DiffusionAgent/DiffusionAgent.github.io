@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="DiffusionGPT: LLM-Driven Text-to-Image Generation System">
+        content="DiffusionAgent: Navigating Expert Models for Agentic Image Generation">
   <meta name="keywords" content="FreeSeg">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DiffusionGPT: LLM-Driven Text-to-Image Generation System</title>
+  <title>DiffusionAgent: Navigating Expert Models for Agentic Image Generation</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -89,7 +89,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">DiffusionGPT: LLM-Driven Text-to-Image Generation System</h1>
+          <h1 class="title is-1 publication-title">DiffusionAgent: Navigating Expert Models for Agentic Image Generation</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a >Jie Qin</a><sup>1</sup>,</span>
@@ -146,7 +146,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/DiffusionGPT/DiffusionGPT"
+                <a href="https://github.com/DiffusionAgent/DiffusionAgent"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -199,7 +199,7 @@
                  class="interpolation-image"
                  alt="Interpolate start reference image."/>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf"></span> We propose a unified generation system DiffusionGPT, which leverages Large Language Models (LLM) to seamlessly accommodating various types of prompts input and integrating domain-expert models for output. 
+        <span class="dnerf"></span> We propose a unified generation system DiffusionAgent, which leverages Large Language Models (LLM) to seamlessly accommodating various types of prompts input and integrating domain-expert models for output. 
       </h2>
     </div>
   </div>
@@ -274,9 +274,9 @@
           <p>
             Diffusion models have opened up new avenues for the field of image generation, resulting in the proliferation of high-quality models shared on open-source platforms. 
             However, a major challenge persists in current text-to-image systems are often unable to handle diverse inputs, or are limited to single model results.
-            Current unified attempts often fall into two orthogonal aspects: i) parse Diverse Prompts in  input stage; ii) activate expert model to output. To combine the best of both worlds, we propose <b>DiffusionGPT</b>,  which leverages Large Language Models (LLM) to offer a unified generation system capable of seamlessly accommodating various types of prompts and integrating domain-expert models.
-            DiffusionGPT constructs domain-specific Trees for various generative models based on prior knowledge. When provided with an input, the LLM parses the prompt and employs the Trees-of-Thought to guide the selection of an appropriate model, thereby relaxing input constraints and ensuring exceptional performance across diverse domains.
-            Moreover, we introduce Advantage Databases, where the Tree-of-Thought is enriched with human feedback, aligning the model selection process with human preferences. Through extensive experiments and comparisons, we demonstrate the effectiveness of DiffusionGPT, showcasing its potential for pushing the boundaries of image synthesis in diverse domains.
+            Current unified attempts often fall into two orthogonal aspects: i) parse Diverse Prompts in  input stage; ii) activate expert model to output. To combine the best of both worlds, we propose <b>DiffusionAgent</b>,  which leverages Large Language Models (LLM) to offer a unified generation system capable of seamlessly accommodating various types of prompts and integrating domain-expert models.
+            DiffusionAgent constructs domain-specific Trees for various generative models based on prior knowledge. When provided with an input, the LLM parses the prompt and employs the Trees-of-Thought to guide the selection of an appropriate model, thereby relaxing input constraints and ensuring exceptional performance across diverse domains.
+            Moreover, we introduce Advantage Databases, where the Tree-of-Thought is enriched with human feedback, aligning the model selection process with human preferences. Through extensive experiments and comparisons, we demonstrate the effectiveness of DiffusionAgent, showcasing its potential for pushing the boundaries of image synthesis in diverse domains.
           </p>
         </div>
       </div>
@@ -345,8 +345,8 @@
         <h2 class="title is-3">Method</h2>
         <div class="content has-text-justified"></div>
           <p>
-            DiffusionGPT is an all-in-one system specifically designed to generate high-quality images for diverse input prompts. Its primary objective is to parse the input prompt and identify the generative model that produces the most optimal results, which is high-generalization, high-utility, and convenient.
-            DiffusionGPT composes of a large language model (LLM) and various domain-expert generative models from the open-source communities (eg. Hugging Face, Civitai). The LLM assumes the role of the core controller and maintains the whole workflow of the system, which consists of four steps: Prompt Parse, Tree-of-thought of Models of Building and Searching, Model Selection with Human Feedback, and Execution of Generation.
+            DiffusionAgent is an all-in-one system specifically designed to generate high-quality images for diverse input prompts. Its primary objective is to parse the input prompt and identify the generative model that produces the most optimal results, which is high-generalization, high-utility, and convenient.
+            DiffusionAgent composes of a large language model (LLM) and various domain-expert generative models from the open-source communities (eg. Hugging Face, Civitai). The LLM assumes the role of the core controller and maintains the whole workflow of the system, which consists of four steps: Prompt Parse, Tree-of-thought of Models of Building and Searching, Model Selection with Human Feedback, and Execution of Generation.
           </p>
         <br/>
         <div class="hero-body">
